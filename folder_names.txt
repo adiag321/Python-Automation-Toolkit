@@ -1,0 +1,32 @@
+Medical-Insurance-Cost-Prediction
+Data-Analysis-Of-Boston-Airbnb-Using-R
+ASHRAE Energy Consumption Prediction
+NEU-Tic-Tac-Toe-Game-Using-PL-SQL
+Twitter-Sentimental-Analysis-during-Covid-19
+Customer-Segmentation-for-Automobile-Company
+Customer-Purchase-Analytics-For-Retail-Business-FMCG-Store
+Breast Cancer Detection
+Prediction-and-Analysis-Customers-Payment-Behaviour
+NEU-GlobalShala-Internship
+Bank-Customer-Profiling-and-Segmentation
+Prediction-and-Analysis-of-Credit-Defaulters-in-Taiwan
+Customer-Lifetime-Value-Prediction
+HR-Analytics-For-Green-Destinations-Using-Tableau
+Bank-Term-Deposit-Analysis
+NYPD-Motor-Collision-Analysis - Tableau
+Data-Analysis-On-Iris-DataSet
+NEU Online Food Ordering System - SQL
+Customer-Segementation-Analysis-for-Retail-Business
+Food-Order-Delivery-System
+UT Mart Sales Analysis - Tableau
+Healthcare-Insurance-Claims-Analysis-Tableau
+Boston AMES Housing Price Prediction
+Adult Census Income Prediction
+EDA-On-Loan-Approval-Dataset
+Prediction-and-Diagnosis-of-Heart-Disease-in-Patients
+.vscode
+Suicide-Rate-Analysis - Flourish
+CRM-Analysis-for-Marketing-data
+NEU Data Mining - Bank Term Prediction
+Customer-Lifetime-Value-Prediction-and-Segmentation-for-Online-Retail-Business
+Boston-Crime-Analysis - Tableau
