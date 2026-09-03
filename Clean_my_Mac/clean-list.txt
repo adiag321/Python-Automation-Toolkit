@@ -1,0 +1,572 @@
+# Mole Cleanup Preview - 2026-08-30 11:06:12
+#
+# How to protect files:
+# 1. Copy any path below to ~/.config/mole/whitelist
+# 2. Run: mo clean --whitelist
+#
+# Example:
+#   /Users/*/Library/Caches/com.example.app
+#
+
+
+=== System ===
+/private/var/log/powermanagement/2026.08.20.asl  # 7.6MB
+/private/var/log/powermanagement/2026.08.21.asl  # 8.4MB
+/private/var/db/diagnostics/Special/0000000000000a42.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000a52.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000b24.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b34.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a99.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000a89.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000bb9.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000b46.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000aab.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000aa2.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a5b.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b2d.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b3d.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000af0.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000b0b.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000ae6.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000b1b.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a80.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a6d.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a7d.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b84.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000ac4.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000ab4.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000b8d.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000b60.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000abd.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000af9.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b02.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000aef.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b12.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000adf.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a64.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000a74.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a81.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000ad7.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b1c.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000ae7.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b0c.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a7e.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a6e.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b95.tracev3  # 1.7MB
+/private/var/db/diagnostics/Special/0000000000000b85.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000ab5.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000ac5.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000af8.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000abe.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b61.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000b13.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b03.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a9a.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a8a.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a75.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a65.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000a53.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a43.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000afa.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b35.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b25.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000aac.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b47.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a88.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a98.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000aa3.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a5c.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000af1.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b3e.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b2e.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000ac7.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000ab7.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b87.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000ae5.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b0a.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b1a.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a83.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000a93.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a67.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a77.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a8c.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a9c.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000aee.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b01.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000ade.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b11.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000aa8.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b73.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000aaa.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000b45.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000afc.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b37.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a41.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000a51.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000af3.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000a5a.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b18.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b08.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000aa1.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b44.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b36.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000afb.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b26.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a50.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b3f.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000af2.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b2f.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a3b.tracev3  # 86KB
+/private/var/db/diagnostics/Special/0000000000000aa0.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b19.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a59.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000ab6.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000ac6.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b86.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a7f.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a6f.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a92.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a82.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000ae4.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000aa9.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a76.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a66.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b10.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b00.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000aed.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a9b.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a8b.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000abf.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000acf.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000b8f.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000b05.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000aea.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b15.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000ada.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a63.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a73.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b8c.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000abc.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b93.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000ac3.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000ab3.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a87.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a97.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000b0e.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000ae1.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b1e.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000ad1.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a6c.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a5e.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b2c.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b3c.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000af7.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000aa5.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000ad8.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000ae8.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b41.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000aae.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a45.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000a55.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b23.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b33.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a5d.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000af6.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000b3b.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000b2b.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000aa4.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000aad.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b40.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000ae9.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000ad9.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a54.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a44.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000aff.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b32.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b22.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a9f.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b14.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b04.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a72.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a62.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b8b.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000abb.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000acb.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b92.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000ab2.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000ac2.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000ad0.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b1d.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b0d.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a96.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a86.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a6b.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a79.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000a69.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000aa6.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000b4b.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000af4.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a5f.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000ab9.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000ac9.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b89.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b20.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000afd.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000b30.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a46.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000a56.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000aaf.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b42.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a70.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000aeb.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b06.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000adb.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b16.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000a8d.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a9d.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a84.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000a94.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000ae2.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b0f.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000ad2.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b1f.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000ac0.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000ab0.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b39.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b29.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000aba.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000aca.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b8a.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a71.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a61.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a9e.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a8e.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b17.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000adc.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000aec.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a6a.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000ad3.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000ae3.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a95.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b28.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b7e.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000ab1.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000ac1.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b91.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b4c.tracev3  # 1.9MB
+/private/var/db/diagnostics/Special/0000000000000aa7.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a68.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a78.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b3a.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000af5.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b2a.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b31.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000afe.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000b21.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000a57.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000ac8.tracev3  # 2.0MB
+/private/var/db/diagnostics/Special/0000000000000ab8.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b88.tracev3  # 2.1MB
+/private/var/db/diagnostics/Special/0000000000000b43.tracev3  # 2.0MB
+/private/var/db/diagnostics/diagnosticd.0.log  # 8KB
+/private/var/db/diagnostics/timesync/0000000000000027.timesync  # 4KB
+/private/var/db/diagnostics/timesync/0000000000000026.timesync  # 4KB
+/private/var/db/diagnostics/timesync/000000000000002b.timesync  # 4KB
+/private/var/db/diagnostics/timesync/000000000000002c.timesync  # 4KB
+/private/var/db/diagnostics/timesync/0000000000000021.timesync  # 8KB
+/private/var/db/diagnostics/timesync/000000000000002e.timesync  # 4KB
+/private/var/db/diagnostics/timesync/000000000000002d.timesync  # 4KB
+/private/var/db/diagnostics/timesync/0000000000000024.timesync  # 8KB
+/private/var/db/diagnostics/timesync/0000000000000025.timesync  # 8KB
+/private/var/db/diagnostics/timesync/000000000000002a.timesync  # 4KB
+/private/var/db/diagnostics/timesync/0000000000000029.timesync  # 8KB
+/private/var/db/diagnostics/timesync/0000000000000028.timesync  # 12KB
+/private/var/db/diagnostics/timesync/0000000000000023.timesync  # 4KB
+/private/var/db/diagnostics/timesync/0000000000000022.timesync  # 4KB
+/private/var/db/diagnostics/roles.plist  # 4KB
+
+=== User essentials ===
+/Users/adityaagarwal/Library/Caches/Google  # 573KB
+/Users/adityaagarwal/Library/Caches/io.sentry  # 0B
+/Users/adityaagarwal/Library/Caches/GeoServices  # 8KB
+/Users/adityaagarwal/Library/Caches/INSTALLATION  # 1KB
+/Users/adityaagarwal/Library/Caches/familycircled  # 0B
+/Users/adityaagarwal/Library/Caches/Cleanup At Startup  # 0B
+
+=== App caches ===
+/Users/adityaagarwal/Library/Application Support/CrashReporter/Electron_56B439DF-BEE3-5977-9A6A-F8430AD1EF89.plist  # 4KB
+/Users/adityaagarwal/Library/Application Support/CrashReporter/exchangesyncd_56B439DF-BEE3-5977-9A6A-F8430AD1EF89.plist  # 4KB
+/Users/adityaagarwal/Library/Application Support/CrashReporter/WhatsApp_56B439DF-BEE3-5977-9A6A-F8430AD1EF89.plist  # 4KB
+/Users/adityaagarwal/Library/Application Support/CrashReporter/Python_56B439DF-BEE3-5977-9A6A-F8430AD1EF89.plist  # 4KB
+/Users/adityaagarwal/Library/Application Support/CrashReporter/iCloudNotificationAgent_56B439DF-BEE3-5977-9A6A-F8430AD1EF89.plist  # 4KB
+/Users/adityaagarwal/Library/Application Support/CrashReporter/Comet_56B439DF-BEE3-5977-9A6A-F8430AD1EF89.plist  # 4KB
+/Users/adityaagarwal/Library/Containers/com.apple.mediaanalysisd/Data/tmp/Pissarro  # 7.6MB
+/Users/adityaagarwal/Library/Containers/com.apple.mediaanalysisd/Data/tmp/TemporaryItems  # 0B
+/Users/adityaagarwal/Library/Containers/com.apple.mediaanalysisd/Data/tmp/com.apple.mediaanalysis  # 0B
+/Users/adityaagarwal/Library/Containers/com.apple.wallpaper.extension.aerials/Data/tmp/TemporaryItems  # 0B
+/Users/adityaagarwal/Library/Containers/com.apple.wallpaper.extension.aerials/Data/tmp/CFNetworkDownload_2xQbGA.tmp  # 0B
+/Users/adityaagarwal/Library/Containers/com.apple.geod/Data/tmp/TemporaryItems  # 0B
+/Users/adityaagarwal/Library/Containers/com.apple.AMPArtworkAgent/Data/Library/Caches/com.apple.AMPArtworkAgent  # 5.0MB
+/Users/adityaagarwal/Library/Containers/com.apple.AppleMediaServicesUI.UtilityExtension/Data/tmp/bundle  # 8.1MB
+/Users/adityaagarwal/Library/Containers/com.apple.AppleMediaServicesUI.UtilityExtension/Data/tmp/155B98D8-DC1D-49D9-80F2-89752588AC42  # 228KB
+/Users/adityaagarwal/Library/Containers/com.apple.AppleMediaServicesUI.UtilityExtension/Data/tmp/2CB19CB5-D818-429E-BBD4-BFDE22534045  # 228KB
+/Users/adityaagarwal/Library/Containers/com.apple.AppleMediaServicesUI.UtilityExtension/Data/tmp/57F7EB07-2A7D-48D3-B984-C4C1BC3A3C0A  # 367KB
+/Users/adityaagarwal/Library/Containers/com.apple.AppleMediaServicesUI.UtilityExtension/Data/tmp/A29F4E46-8DE3-4EC7-A62C-71372A40D088  # 367KB
+/Users/adityaagarwal/Library/Caches/com.apple.AppleMediaServices/Metrics  # 618KB
+/Users/adityaagarwal/Library/Caches/com.apple.AppleMediaServices/Storage  # 45KB
+/Users/adityaagarwal/Library/Caches/com.apple.AppleMediaServices/DynamicUI  # 381KB
+/Users/adityaagarwal/Library/Caches/com.apple.AppleMediaServices/Engagement  # 1.9MB
+/Users/adityaagarwal/Library/Caches/com.apple.AppleMediaServices/sap-setup-cert.txt  # 3KB
+/Users/adityaagarwal/Library/Caches/com.apple.parsecd/Cohorts  # 82KB
+/Users/adityaagarwal/Library/Caches/com.apple.parsecd/bag.plist  # 52KB
+/Users/adityaagarwal/Library/Caches/com.apple.parsecd/CustomFeedback  # 0B
+/Users/adityaagarwal/Library/Caches/com.apple.parsecd/silhouette_config  # 1KB
+/Users/adityaagarwal/Library/Caches/com.apple.parsecd/correction_dict_url  # 3.9MB
+/Users/adityaagarwal/Library/Caches/com.apple.parsecd/spotlight_stopword.map  # 150KB
+/Users/adityaagarwal/Library/Caches/com.apple.parsecd/dictionary_resources_url  # 2KB
+/Users/adityaagarwal/Library/Caches/com.apple.parsecd/silhouette_topic_mapping  # 1.0MB
+/Users/adityaagarwal/Library/Caches/com.apple.parsecd/spotlight_model_resources  # 4.0MB
+/Users/adityaagarwal/Library/Caches/com.apple.parsecd/autofill_tld_whitelist_url  # 4.3MB
+/Users/adityaagarwal/Library/Caches/com.apple.parsecd/crowdsourcing_blacklist_url  # 1KB
+/Users/adityaagarwal/Library/Caches/com.apple.parsecd/crowdsourcing_whitelist_url  # 58KB
+/Users/adityaagarwal/Library/Caches/com.apple.parsecd/installed_app_whitelist_url  # 169KB
+/Users/adityaagarwal/Library/Caches/com.apple.parsecd/silhouette_whitelisted_topics  # 55KB
+/Users/adityaagarwal/Library/Caches/com.apple.parsecd/spotlight_phrase_dictionary.map  # 3.4MB
+/Users/adityaagarwal/Library/Containers/com.betafish.adblock-mac/Data/Library/Caches/AdBlock  # 4KB
+/Users/adityaagarwal/Library/Containers/com.betafish.adblock-mac/Data/Library/Caches/com.betafish.adblock-mac  # 135KB
+/Users/adityaagarwal/Library/Containers/com.betafish.adblock-mac.SafariContentBlocker/Data/Library/Caches/AdblockPlusSafari Extension  # 0B
+/Users/adityaagarwal/Library/Containers/com.betafish.adblock-mac.SafariContentBlocker/Data/Library/Caches/RevenueCat  # 53KB
+/Users/adityaagarwal/Library/Containers/com.betafish.adblock-mac.SafariContentBlocker/Data/Library/Caches/RevenueCatFonts  # 0B
+/Users/adityaagarwal/Library/Group Containers/group.com.betafish.adblock-mac/Library/Caches/logs  # 438KB
+/Users/adityaagarwal/Library/Group Containers/group.net.whatsapp.WhatsApp.shared/Logs/.DS_Store  # 8KB
+/Users/adityaagarwal/Library/Group Containers/group.net.whatsapp.WhatsApp.shared/Logs/WhatsApp_2  # 3.2MB
+/Users/adityaagarwal/Library/Group Containers/group.net.whatsapp.WhatsApp.shared/Library/Caches/LocalKeyValue-locks  # 0B
+/Users/adityaagarwal/Library/Group Containers/group.net.whatsapp.WhatsApp.shared/Library/Caches/MediaDownload  # 0B
+
+=== Browsers ===
+/Users/adityaagarwal/Library/Caches/Google/Chrome/Default  # 573KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/3ce11c631273099fd1302b449de9cc9487317849/407fa7ee-b24a-4de8-bfad-ac660a15ad44  # 8KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/2348e52d6de9218df880d9a88ad6a5d8c2c9555c/10741cb0-7329-4ef0-a97f-da91ac3f049a  # 12KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/2348e52d6de9218df880d9a88ad6a5d8c2c9555c/b6cc824d-8f23-40a5-8553-8ece89e45d52  # 12KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/76ee287870b26a99cc483188ae1312bc8a955882/350ba619-bf9e-40ac-a21e-9088f41380eb  # 8KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/e616da5ab9d7018b5ed043735bb23de14a88e1c8/d1e79998-1443-4d64-8c93-6b8dc5994c59  # 12.1MB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/e616da5ab9d7018b5ed043735bb23de14a88e1c8/d8139df0-7d7d-488e-8422-63f4fe7d4064  # 20KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/d324cea85344c240641e02ac75d9ff5b961ca213/5f93c81d-7f1a-42cd-93bb-b53b3deb5c2b  # 25.9MB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/d324cea85344c240641e02ac75d9ff5b961ca213/aec22147-ff52-45bd-abd6-1eeef9ae9e9d  # 868KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/d324cea85344c240641e02ac75d9ff5b961ca213/5d08bd3f-73c7-4a41-8552-4d13f0ec4f50  # 70KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/5381cb7d7f0d31a6afec904154068ba9f06028a5/391b7934-3456-44a5-b952-b0bdd39478d9  # 57.8MB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/5381cb7d7f0d31a6afec904154068ba9f06028a5/81cc905b-8755-476d-a451-5ccac0f06896  # 20KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/2a1c18365e83cb6e1347464058faa3d44e45a31c/91e31bdb-d584-43eb-adc2-cbcd17255ff4  # 8KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/2a1c18365e83cb6e1347464058faa3d44e45a31c/99d8915e-bf4b-4db2-a33d-c1b1694c7a35  # 8KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/2a1c18365e83cb6e1347464058faa3d44e45a31c/249381fa-e6f6-41c4-a804-18584c595281  # 8KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/2a1c18365e83cb6e1347464058faa3d44e45a31c/1d91eacd-ab5f-409d-a449-94fabf3ca3b6  # 8KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/2a1c18365e83cb6e1347464058faa3d44e45a31c/1ee28c28-5c48-462d-b711-97f093a79bf2  # 8KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/f278ba7242a4b0474c6478429cbbac36bd73e18d/2643a2e0-7c29-46d9-883f-a42c95d7a894  # 2.6MB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/f278ba7242a4b0474c6478429cbbac36bd73e18d/75096461-bc34-45bd-a09a-099eec4a60ad  # 2.5MB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/2771a31569fabf719bcfc2a493acca74e1d77ae3/1f355cb5-448b-4b1d-afa9-d6456d353115  # 16.9MB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/2771a31569fabf719bcfc2a493acca74e1d77ae3/d9ffcde2-e6ea-4083-8f01-6a459a13d134  # 20KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/c80a5a104e7a265a11c1c889991d59f2334245a9/f4dbdb9f-82e2-43b3-a114-8d100568280b  # 8KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/c80a5a104e7a265a11c1c889991d59f2334245a9/13b5a91a-853f-4d63-85ed-3d38bedb6f8b  # 8KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/c80a5a104e7a265a11c1c889991d59f2334245a9/cf3b1af1-5551-4039-90fa-4a7b092cefc6  # 901KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/c80a5a104e7a265a11c1c889991d59f2334245a9/8305a5da-4331-4845-b84b-b4a6545a46bb  # 23.7MB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/c80a5a104e7a265a11c1c889991d59f2334245a9/1285a532-aee2-4073-a31d-5d45052cbe5c  # 41.1MB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/379f1cbab5b08b6fc9e08681e42d8be311441c88/2637a6f9-dce8-4f45-9b98-e88d16750627  # 733KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/379f1cbab5b08b6fc9e08681e42d8be311441c88/8e168e19-f2cb-4a9b-b7b9-4efa0aa5b578  # 8KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/379f1cbab5b08b6fc9e08681e42d8be311441c88/3737bc5f-c6b4-47f4-b08d-6a7ef0f1efa6  # 8KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/379f1cbab5b08b6fc9e08681e42d8be311441c88/e756431a-5ea9-4323-90c3-d793765d90ad  # 41.6MB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/134f3c9700f26bf7b87e4253584d73e31780079b/e148c048-1328-49ed-a0f9-71bb746fcdb1  # 8KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/32155952f2e69fd3ddcf7ae0e2ee5bd2a3f5a0fc/658a7c32-8cb6-40ff-93b6-1b4fd4039be0  # 8KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/32155952f2e69fd3ddcf7ae0e2ee5bd2a3f5a0fc/10f47d00-4dce-4067-91b8-15589d2fb154  # 8KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/32155952f2e69fd3ddcf7ae0e2ee5bd2a3f5a0fc/c29d9ab0-12de-4361-8978-33471f446016  # 8KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/32155952f2e69fd3ddcf7ae0e2ee5bd2a3f5a0fc/b8bde2a9-1680-4d3e-b346-88f97b4af824  # 8KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/32155952f2e69fd3ddcf7ae0e2ee5bd2a3f5a0fc/3970ef12-c8ad-4b41-831c-51f36169818c  # 8KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/d7895cfab5dc879e57aeb4796e8348718aece494/32418339-cc8e-497d-9f4f-7a2dfa99d97d  # 45KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/926e6487aa083d59d0749cbcfdf85cbc248386a4/d5d5e1fa-b90c-40f8-bf07-d5a87bf11b95  # 8KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/1520f989-c267-425b-abdf-7618c5784031  # 5.5MB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/fa83e1a0-16d1-47bc-9a55-828efc5395cd  # 315KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/e8e94dfc-f9c1-4b88-a372-a68edf9993be  # 26.2MB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/35351dd4-b4bd-49c6-94f7-47b579c911ff  # 2.3MB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/3cc82566-f982-415a-81e7-1e66b5d847c1  # 315KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/153d6404-942c-4546-919c-60214bfa928f  # 13.0MB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/13e0c7e4-6e59-4be1-9b08-ce064b2be754  # 13.0MB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/0a988db9f1e3b3b97f62180fca464380ab3fde1c/ef7ef1d2-12df-41d4-8c64-5d2abaf82e29  # 8KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/26579032c0130d76200e93b22982023120a4f9a3/b9369c68-d541-4548-a093-ee3880a90231  # 8KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage/f258bc14264df126efb4e48385c3fae9365e60ee/0a2244c9-b39c-44f6-bd93-2a23fefaf248  # 8KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Profile 1/Service Worker/CacheStorage/571988c4897ef87c20ec4d6b13878cf6c36e1caf/268e9d08-d28f-47b3-aab1-a14e14bd3d44  # 25KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Profile 1/Service Worker/CacheStorage/571988c4897ef87c20ec4d6b13878cf6c36e1caf/8b41dc93-281f-4c49-b3a2-047fec9643ab  # 25KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Profile 1/Service Worker/CacheStorage/571988c4897ef87c20ec4d6b13878cf6c36e1caf/023f7e53-541e-44b0-bc36-998a0ffac37f  # 12KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Profile 1/Service Worker/CacheStorage/571988c4897ef87c20ec4d6b13878cf6c36e1caf/fed47cb8-949c-46cb-8735-8c9dc79079de  # 16KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Profile 1/Service Worker/CacheStorage/571988c4897ef87c20ec4d6b13878cf6c36e1caf/2849c7a8-05d7-4e2f-ac05-08522dcc98ad  # 43.9MB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Profile 1/Service Worker/CacheStorage/571988c4897ef87c20ec4d6b13878cf6c36e1caf/ce24a24f-5327-49dd-bb45-42adcf617708  # 172KB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Profile 4/Service Worker/CacheStorage/379f1cbab5b08b6fc9e08681e42d8be311441c88/5d9c8c2a-0ff1-4dd6-937e-489ce133f394  # 46.5MB
+/Users/adityaagarwal/Library/Application Support/Google/Chrome/Profile 4/Service Worker/CacheStorage/379f1cbab5b08b6fc9e08681e42d8be311441c88/20c09d6a-c75a-4d75-b1fd-1c29e5533dc2  # 184KB
+
+=== Cloud & Office ===
+/Users/adityaagarwal/Library/Containers/com.microsoft.Word/Data/tmp/Content.MSO  # 0B
+/Users/adityaagarwal/Library/Containers/com.microsoft.Word/Data/tmp/TemporaryItems  # 0B
+/Users/adityaagarwal/Library/Containers/com.microsoft.Excel/Data/tmp/WebKit  # 8KB
+/Users/adityaagarwal/Library/Containers/com.microsoft.Excel/Data/tmp/wefgallery  # 229KB
+/Users/adityaagarwal/Library/Containers/com.microsoft.Excel/Data/tmp/Content.MSO  # 15.1MB
+/Users/adityaagarwal/Library/Containers/com.microsoft.Excel/Data/tmp/TemporaryItems  # 0B
+
+=== Developer tools ===
+/Users/adityaagarwal/.npm/_npx/15c61037b1978c83  # 14.4MB
+/Users/adityaagarwal/.npm/_npx/e41f203b7505f1fb  # 0B
+/Users/adityaagarwal/.npm/_logs/2026-08-25T18_26_41_364Z-debug-0.log  # 1KB
+/Users/adityaagarwal/.npm/_logs/2026-08-25T18_26_43_080Z-debug-0.log  # 2KB
+/Users/adityaagarwal/.npm/_logs/2026-08-26T15_01_53_323Z-debug-0.log  # 2KB
+/Users/adityaagarwal/.npm/_logs/2026-08-26T15_01_55_387Z-debug-0.log  # 2KB
+/Users/adityaagarwal/.npm/_logs/2026-08-26T15_22_54_642Z-debug-0.log  # 2KB
+/Users/adityaagarwal/.npm/_logs/2026-08-26T15_22_58_765Z-debug-0.log  # 2KB
+/Users/adityaagarwal/.npm/_logs/2026-08-27T03_14_59_935Z-debug-0.log  # 2KB
+/Users/adityaagarwal/.npm/_logs/2026-08-27T03_15_00_588Z-debug-0.log  # 1KB
+/Users/adityaagarwal/.npm/_logs/2026-08-28T13_57_43_791Z-debug-0.log  # 2KB
+/Users/adityaagarwal/.npm/_logs/2026-08-28T13_57_44_502Z-debug-0.log  # 1KB
+/Users/adityaagarwal/.npm/_logs/2026-08-30T15_58_33_365Z-debug-0.log  # 1KB
+/Users/adityaagarwal/.npm/_logs/2026-08-30T16_05_22_763Z-debug-0.log  # 1KB
+/Users/adityaagarwal/Downloads/prices-predictor-system/prices-predictor-system/analysis/analyze_src/__pycache__  # 29KB
+/Users/adityaagarwal/Downloads/prices-predictor-system/prices-predictor-system/pipelines/__pycache__  # 12KB
+/Users/adityaagarwal/Downloads/prices-predictor-system/prices-predictor-system/src/__pycache__  # 90KB
+/Users/adityaagarwal/Downloads/prices-predictor-system/prices-predictor-system/steps/__pycache__  # 90KB
+/Users/adityaagarwal/Library/Application Support/Claude/GPUCache/index  # 263KB
+/Users/adityaagarwal/Library/Application Support/Claude/GPUCache/data_0  # 8KB
+/Users/adityaagarwal/Library/Application Support/Claude/GPUCache/data_1  # 270KB
+/Users/adityaagarwal/Library/Application Support/Claude/GPUCache/data_2  # 8KB
+/Users/adityaagarwal/Library/Application Support/Claude/GPUCache/data_3  # 8KB
+/Users/adityaagarwal/Library/Application Support/Claude/DawnGraphiteCache/index  # 263KB
+/Users/adityaagarwal/Library/Application Support/Claude/DawnGraphiteCache/data_0  # 8KB
+/Users/adityaagarwal/Library/Application Support/Claude/DawnGraphiteCache/data_1  # 270KB
+/Users/adityaagarwal/Library/Application Support/Claude/DawnGraphiteCache/data_2  # 8KB
+/Users/adityaagarwal/Library/Application Support/Claude/DawnGraphiteCache/data_3  # 8KB
+/Users/adityaagarwal/Library/Application Support/Claude/DawnWebGPUCache/index  # 263KB
+/Users/adityaagarwal/Library/Application Support/Claude/DawnWebGPUCache/data_0  # 8KB
+/Users/adityaagarwal/Library/Application Support/Claude/DawnWebGPUCache/data_1  # 270KB
+/Users/adityaagarwal/Library/Application Support/Claude/DawnWebGPUCache/data_2  # 8KB
+/Users/adityaagarwal/Library/Application Support/Claude/DawnWebGPUCache/data_3  # 8KB
+/Users/adityaagarwal/Library/Application Support/Claude/sentry/queue  # 4KB
+/Users/adityaagarwal/Library/Application Support/Claude/sentry/scope_v3.json  # 14KB
+/Users/adityaagarwal/Library/Application Support/Code/Cache/Cache_Data  # 0B
+/Users/adityaagarwal/Library/Application Support/Code/Cache/No_Vary_Search  # 8KB
+
+=== Application Support ===
+/Users/adityaagarwal/Library/Application Support/Antigravity IDE/Code Cache/.DS_Store  # 7KB
+/Users/adityaagarwal/Library/Application Support/Antigravity IDE/Code Cache/js  # 8KB
+/Users/adityaagarwal/Library/Application Support/Antigravity IDE/Code Cache/wasm  # 8KB
+/Users/adityaagarwal/Library/Application Support/Antigravity IDE/DawnGraphiteCache/data_1  # 270KB
+/Users/adityaagarwal/Library/Application Support/Antigravity IDE/DawnGraphiteCache/data_0  # 8KB
+/Users/adityaagarwal/Library/Application Support/Antigravity IDE/DawnGraphiteCache/index  # 263KB
+/Users/adityaagarwal/Library/Application Support/Antigravity IDE/DawnGraphiteCache/data_2  # 8KB
+/Users/adityaagarwal/Library/Application Support/Antigravity IDE/DawnGraphiteCache/data_3  # 8KB
+/Users/adityaagarwal/Library/Application Support/Antigravity IDE/DawnWebGPUCache/data_1  # 270KB
+/Users/adityaagarwal/Library/Application Support/Antigravity IDE/DawnWebGPUCache/data_0  # 8KB
+/Users/adityaagarwal/Library/Application Support/Antigravity IDE/DawnWebGPUCache/index  # 263KB
+/Users/adityaagarwal/Library/Application Support/Antigravity IDE/DawnWebGPUCache/data_2  # 8KB
+/Users/adityaagarwal/Library/Application Support/Antigravity IDE/DawnWebGPUCache/data_3  # 8KB
+/Users/adityaagarwal/Library/Application Support/Antigravity IDE/Cache/.DS_Store  # 7KB
+/Users/adityaagarwal/Library/Application Support/Antigravity IDE/Cache/Cache_Data  # 1.2MB
+/Users/adityaagarwal/Library/Application Support/Antigravity IDE/Cache/No_Vary_Search  # 8KB
+/Users/adityaagarwal/Library/Application Support/Code/Code Cache/.DS_Store  # 7KB
+/Users/adityaagarwal/Library/Application Support/Code/Code Cache/js  # 8KB
+/Users/adityaagarwal/Library/Application Support/Code/Code Cache/wasm  # 8KB
+/Users/adityaagarwal/Library/Application Support/Code/Code Cache/electron-preload  # 25KB
+/Users/adityaagarwal/Library/Application Support/Code/DawnGraphiteCache/data_1  # 270KB
+/Users/adityaagarwal/Library/Application Support/Code/DawnGraphiteCache/data_0  # 8KB
+/Users/adityaagarwal/Library/Application Support/Code/DawnGraphiteCache/index  # 263KB
+/Users/adityaagarwal/Library/Application Support/Code/DawnGraphiteCache/data_2  # 8KB
+/Users/adityaagarwal/Library/Application Support/Code/DawnGraphiteCache/data_3  # 8KB
+/Users/adityaagarwal/Library/Application Support/Code/DawnWebGPUCache/data_1  # 270KB
+/Users/adityaagarwal/Library/Application Support/Code/DawnWebGPUCache/data_0  # 8KB
+/Users/adityaagarwal/Library/Application Support/Code/DawnWebGPUCache/index  # 263KB
+/Users/adityaagarwal/Library/Application Support/Code/DawnWebGPUCache/data_2  # 8KB
+/Users/adityaagarwal/Library/Application Support/Code/DawnWebGPUCache/data_3  # 8KB
+/Users/adityaagarwal/Library/Application Support/Code/Cache/.DS_Store  # 7KB
+/Users/adityaagarwal/Library/Application Support/Freebuff/Code Cache/.DS_Store  # 7KB
+/Users/adityaagarwal/Library/Application Support/Freebuff/Code Cache/js  # 29KB
+/Users/adityaagarwal/Library/Application Support/Freebuff/Code Cache/wasm  # 8KB
+/Users/adityaagarwal/Library/Application Support/Freebuff/GPUCache/data_1  # 270KB
+/Users/adityaagarwal/Library/Application Support/Freebuff/GPUCache/data_0  # 45KB
+/Users/adityaagarwal/Library/Application Support/Freebuff/GPUCache/index  # 263KB
+/Users/adityaagarwal/Library/Application Support/Freebuff/GPUCache/data_2  # 1.1MB
+/Users/adityaagarwal/Library/Application Support/Freebuff/GPUCache/data_3  # 8KB
+/Users/adityaagarwal/Library/Application Support/Freebuff/DawnGraphiteCache/data_1  # 270KB
+/Users/adityaagarwal/Library/Application Support/Freebuff/DawnGraphiteCache/data_0  # 8KB
+/Users/adityaagarwal/Library/Application Support/Freebuff/DawnGraphiteCache/index  # 263KB
+/Users/adityaagarwal/Library/Application Support/Freebuff/DawnGraphiteCache/data_2  # 8KB
+/Users/adityaagarwal/Library/Application Support/Freebuff/DawnGraphiteCache/data_3  # 8KB
+/Users/adityaagarwal/Library/Application Support/Freebuff/DawnWebGPUCache/data_1  # 270KB
+/Users/adityaagarwal/Library/Application Support/Freebuff/DawnWebGPUCache/data_0  # 8KB
+/Users/adityaagarwal/Library/Application Support/Freebuff/DawnWebGPUCache/index  # 263KB
+/Users/adityaagarwal/Library/Application Support/Freebuff/DawnWebGPUCache/data_2  # 8KB
+/Users/adityaagarwal/Library/Application Support/Freebuff/DawnWebGPUCache/data_3  # 8KB
+/Users/adityaagarwal/Library/Application Support/Freebuff/Cache/Cache_Data  # 3.0MB
+/Users/adityaagarwal/Library/Application Support/GitHub Desktop/Code Cache/.DS_Store  # 7KB
+/Users/adityaagarwal/Library/Application Support/GitHub Desktop/Code Cache/js  # 8KB
+/Users/adityaagarwal/Library/Application Support/GitHub Desktop/Code Cache/wasm  # 8KB
+/Users/adityaagarwal/Library/Application Support/GitHub Desktop/GPUCache/data_1  # 270KB
+/Users/adityaagarwal/Library/Application Support/GitHub Desktop/GPUCache/data_0  # 8KB
+/Users/adityaagarwal/Library/Application Support/GitHub Desktop/GPUCache/index  # 263KB
+/Users/adityaagarwal/Library/Application Support/GitHub Desktop/GPUCache/data_2  # 8KB
+/Users/adityaagarwal/Library/Application Support/GitHub Desktop/GPUCache/data_3  # 8KB
+/Users/adityaagarwal/Library/Application Support/GitHub Desktop/DawnGraphiteCache/data_1  # 270KB
+/Users/adityaagarwal/Library/Application Support/GitHub Desktop/DawnGraphiteCache/data_0  # 8KB
+/Users/adityaagarwal/Library/Application Support/GitHub Desktop/DawnGraphiteCache/index  # 263KB
+/Users/adityaagarwal/Library/Application Support/GitHub Desktop/DawnGraphiteCache/data_2  # 8KB
+/Users/adityaagarwal/Library/Application Support/GitHub Desktop/DawnGraphiteCache/data_3  # 8KB
+/Users/adityaagarwal/Library/Application Support/GitHub Desktop/DawnWebGPUCache/data_1  # 270KB
+/Users/adityaagarwal/Library/Application Support/GitHub Desktop/DawnWebGPUCache/data_0  # 8KB
+/Users/adityaagarwal/Library/Application Support/GitHub Desktop/DawnWebGPUCache/index  # 263KB
+/Users/adityaagarwal/Library/Application Support/GitHub Desktop/DawnWebGPUCache/data_2  # 8KB
+/Users/adityaagarwal/Library/Application Support/GitHub Desktop/DawnWebGPUCache/data_3  # 8KB
+/Users/adityaagarwal/Library/Application Support/GitHub Desktop/Cache/.DS_Store  # 7KB
+/Users/adityaagarwal/Library/Application Support/GitHub Desktop/Cache/Cache_Data  # 1.5MB
+/Users/adityaagarwal/Library/Application Support/GitHub Desktop/Cache/No_Vary_Search  # 8KB
+/Users/adityaagarwal/Library/Application Support/Notion/Code Cache/.DS_Store  # 7KB
+/Users/adityaagarwal/Library/Application Support/Notion/Code Cache/js  # 8KB
+/Users/adityaagarwal/Library/Application Support/Notion/Code Cache/wasm  # 8KB
+/Users/adityaagarwal/Library/Application Support/Notion/GPUCache/data_1  # 270KB
+/Users/adityaagarwal/Library/Application Support/Notion/GPUCache/data_0  # 8KB
+/Users/adityaagarwal/Library/Application Support/Notion/GPUCache/index  # 263KB
+/Users/adityaagarwal/Library/Application Support/Notion/GPUCache/data_2  # 8KB
+/Users/adityaagarwal/Library/Application Support/Notion/GPUCache/data_3  # 8KB
+/Users/adityaagarwal/Library/Application Support/Notion/DawnGraphiteCache/data_1  # 270KB
+/Users/adityaagarwal/Library/Application Support/Notion/DawnGraphiteCache/data_0  # 8KB
+/Users/adityaagarwal/Library/Application Support/Notion/DawnGraphiteCache/index  # 263KB
+/Users/adityaagarwal/Library/Application Support/Notion/DawnGraphiteCache/data_2  # 8KB
+/Users/adityaagarwal/Library/Application Support/Notion/DawnGraphiteCache/data_3  # 8KB
+/Users/adityaagarwal/Library/Application Support/Notion/DawnWebGPUCache/data_1  # 270KB
+/Users/adityaagarwal/Library/Application Support/Notion/DawnWebGPUCache/data_0  # 8KB
+/Users/adityaagarwal/Library/Application Support/Notion/DawnWebGPUCache/index  # 263KB
+/Users/adityaagarwal/Library/Application Support/Notion/DawnWebGPUCache/data_2  # 8KB
+/Users/adityaagarwal/Library/Application Support/Notion/DawnWebGPUCache/data_3  # 8KB
+/Users/adityaagarwal/Library/Application Support/Notion/Cache/.DS_Store  # 7KB
+/Users/adityaagarwal/Library/Application Support/Notion/Cache/Cache_Data  # 0B
+/Users/adityaagarwal/Library/Application Support/Notion/Cache/No_Vary_Search  # 0B
+/Users/adityaagarwal/Library/Application Support/ai.opencode.desktop/Code Cache/.DS_Store  # 7KB
+/Users/adityaagarwal/Library/Application Support/ai.opencode.desktop/Code Cache/js  # 8KB
+/Users/adityaagarwal/Library/Application Support/ai.opencode.desktop/Code Cache/wasm  # 8KB
+/Users/adityaagarwal/Library/Application Support/ai.opencode.desktop/Code Cache/electron-preload  # 12KB
+/Users/adityaagarwal/Library/Application Support/ai.opencode.desktop/GPUCache/data_1  # 270KB
+/Users/adityaagarwal/Library/Application Support/ai.opencode.desktop/GPUCache/data_0  # 8KB
+/Users/adityaagarwal/Library/Application Support/ai.opencode.desktop/GPUCache/index  # 263KB
+/Users/adityaagarwal/Library/Application Support/ai.opencode.desktop/GPUCache/data_2  # 8KB
+/Users/adityaagarwal/Library/Application Support/ai.opencode.desktop/GPUCache/data_3  # 8KB
+/Users/adityaagarwal/Library/Application Support/ai.opencode.desktop/DawnGraphiteCache/data_1  # 270KB
+/Users/adityaagarwal/Library/Application Support/ai.opencode.desktop/DawnGraphiteCache/data_0  # 8KB
+/Users/adityaagarwal/Library/Application Support/ai.opencode.desktop/DawnGraphiteCache/index  # 263KB
+/Users/adityaagarwal/Library/Application Support/ai.opencode.desktop/DawnGraphiteCache/data_2  # 8KB
+/Users/adityaagarwal/Library/Application Support/ai.opencode.desktop/DawnGraphiteCache/data_3  # 8KB
+/Users/adityaagarwal/Library/Application Support/ai.opencode.desktop/DawnWebGPUCache/data_1  # 270KB
+/Users/adityaagarwal/Library/Application Support/ai.opencode.desktop/DawnWebGPUCache/data_0  # 8KB
+/Users/adityaagarwal/Library/Application Support/ai.opencode.desktop/DawnWebGPUCache/index  # 263KB
+/Users/adityaagarwal/Library/Application Support/ai.opencode.desktop/DawnWebGPUCache/data_2  # 8KB
+/Users/adityaagarwal/Library/Application Support/ai.opencode.desktop/DawnWebGPUCache/data_3  # 8KB
+/Users/adityaagarwal/Library/Application Support/ai.opencode.desktop/Cache/.DS_Store  # 7KB
+/Users/adityaagarwal/Library/Application Support/ai.opencode.desktop/Cache/Cache_Data  # 2.9MB
+/Users/adityaagarwal/Library/Application Support/ai.opencode.desktop/Cache/No_Vary_Search  # 8KB
+
+# ============================================
+# Summary
+# ============================================
+# Potential cleanup: 1.02GB
+# Items: 541
+# Categories: 7
