@@ -101,10 +101,17 @@ chmod +x mac_cleanup.sh   # first time only
 ./mac_cleanup.sh
 ```
 
-The script prints `df -h /` before and after, logs each path it cleans, and
-finishes with a summary. No confirmation prompt is built in — review the
-table above (or the script itself) before running, since everything it
-touches is deleted immediately.
+The script prints `df -h /` before and after, and logs each path it cleans
+with the space it freed (e.g. `cleaned: ~/Library/Caches/Foo (freed 42M)`),
+plus a running grand total. No confirmation prompt is built into the default
+cache/log cleanup — review the table above (or the script itself) before
+running, since everything it touches is deleted immediately.
+
+Every run's full output is also saved to a timestamped log file at
+`~/Library/Application Support/mac_cleanup/logs/run-<timestamp>.log`, so you
+can look back at exactly what a past run deleted. (It's intentionally not
+under `~/Library/Logs` — that directory itself is one of the things the
+cache-clean step empties.)
 
 Re-run any time to reclaim space; all cleaned data regenerates automatically
 the next time the relevant app launches.
@@ -122,6 +129,40 @@ the next time the relevant app launches.
 Invoke it in Claude Code by asking to "clean up my Mac" or "find caches I can
 clear" — it will not run `mac_cleanup.sh` directly, but performs the
 equivalent scan-and-report workflow interactively.
+
+## Additional actions (same file, opt-in flags)
+
+`mac_cleanup.sh` also bundles four extra actions beyond cache/log cleanup.
+They live in the same file but are **not** part of the default (no-argument)
+run — they touch things riskier than pure cache (build artifacts you'd need
+to rebuild, installer files, an entire app + its data), so each one **lists
+what it found and asks for confirmation before deleting anything**, unlike
+the default cache/log cleanup which runs immediately.
+
+| Flag | What it does | Default behavior |
+|---|---|---|
+| `--purge` | Finds `node_modules`, `target`, `.build`, `dist` folders under common project roots, skipping any touched in the last 14 days | Lists candidates + total size, prompts y/N before deleting |
+| `--installers` | Finds `.dmg`/`.pkg`/`.mpkg`/`.iso`/`.xip` installers in Downloads, Desktop, iCloud Downloads, Mail Downloads, and the Homebrew cache, older than 3 days | Lists candidates + total size, prompts y/N before deleting |
+| `--optimize` | Flushes DNS cache, resets QuickLook thumbnail cache, rebuilds the Dock/Finder icon cache, reports Spotlight index status | Runs immediately (all steps are self-healing); `--reindex-spotlight` forces a full reindex (slow, opt-in) |
+| `--uninstall "AppName"` | Finds an app's Application Support, caches, preferences, logs, containers, saved state, and best-effort Group Containers | Lists everything found, prompts y/N before removing the app + leftovers |
+
+`--all` runs cache/log cleanup + `--purge` + `--installers` + `--optimize`
+in one go (still prompting for the riskier ones). `--yes` skips confirmation
+prompts (for scripting). `--purge`/`--installers` accept `--purge-min-age N`
+/ `--installer-min-age N` to adjust the staleness cutoff, and `--purge-paths
+"p1 p2"` to scan custom project roots. `--uninstall` accepts `--list-only`
+to just report without ever deleting. Run `./mac_cleanup.sh --help` for
+the full list.
+
+```bash
+chmod +x mac_cleanup.sh   # first time only
+./mac_cleanup.sh                          # default: cache/log cleanup only
+./mac_cleanup.sh --purge
+./mac_cleanup.sh --installers
+./mac_cleanup.sh --optimize
+./mac_cleanup.sh --uninstall "Some App" --list-only
+./mac_cleanup.sh --all
+```
 
 ## Requirements
 
